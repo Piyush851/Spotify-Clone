@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,18 @@
     <link rel="stylesheet" href="/Lecture_84_Spotify_Clone/Spotify-Clone/css/style.css">
     <link rel="stylesheet" href="/Lecture_84_Spotify_Clone/Spotify-Clone/css/media.css">
     <link rel="stylesheet" href="/Lecture_84_Spotify_Clone/Spotify-Clone/css/utility.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="/Lecture_84_Spotify_Clone/Spotify-Clone/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
     <div class="container flex bg-black">
         <div class="left border bg-black">
             <div class="home bg-grey rounded m-1 p-1">
-                <div class="logo invert"><img src="/Lecture_84_Spotify_Clone/Spotify-Clone/assets/images/logo.svg" alt="logo"></div>
+                <div class="logo invert"><img src="/Lecture_84_Spotify_Clone/Spotify-Clone/assets/images/logo.svg"
+                        alt="logo"></div>
                 <ul>
                     <li>
                         <i class="fa-solid fa-house"></i>Home
@@ -23,15 +28,61 @@
                 </ul>
             </div>
             <div class="library bg-grey rounded m-1 p-1">
-                Your Library
+                <div class="heading">
+                    <img class="invert" src="/Lecture_84_Spotify_Clone/Spotify-Clone/assets/images/playlist.svg"
+                        alt="playlist icon">
+                    <h2>
+                        Your Library
+                    </h2>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
             </div>
         </div>
-        <div class="right border"></div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="nav">
+                    <i class="fa-solid fa-angle-left"></i>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div class="buttons">
+                    <button>Signup</button>
+                    <button>Login</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h1>Spotify Playlist</h1>
+                <div class="cardContainer">
+                    <!-- card 1 -->
+                    <div class="card">
+                        <img src="/Lecture_84_Spotify_Clone/Spotify-Clone/assets/music/cs/cover.jpg" alt="happy hits" srcset="">
+                        <div class="play">
+                            <img src="/Lecture_84_Spotify_Clone/Spotify-Clone/assets/images/play.svg" alt="play" srcset="">
+                        </div>
+                        <h2>Happy Hits</h2>
+                        <p>Hits to boost mood and fill you with happiness</p>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="card">
+                        <img src="/Lecture_84_Spotify_Clone/Spotify-Clone/assets/music/cs/cover.jpg" alt="happy hits" srcset="">
+                        <h2>Happy Hits</h2>
+                        <p>Hits to boost mood and fill you with happiness</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- 25:44 -->
-
+<!-- 1:05:25 -->
 
     <script src="/Lecture_84_Spotify_Clone/Spotify-Clone/js/script.js"></script>
 </body>
+
 </html>
