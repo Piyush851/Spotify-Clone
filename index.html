@@ -16,10 +16,14 @@
 
 <body>
     <div class="container flex bg-black">
+
+        <!-- Left section -->
         <div class="left border bg-black">
+            <!-- Home section -->
             <div class="home bg-grey rounded m-1 p-1">
-                <div class="logo invert"><img src="/Lecture_84_Spotify_Clone/Spotify-Clone/assets/images/logo.svg"
+                <div class="logo invert"><img width="134px" src="/Lecture_84_Spotify_Clone/Spotify-Clone/assets/images/logo.svg"
                         alt="logo"></div>
+                        <!-- Home and search -->
                 <ul>
                     <li>
                         <i class="fa-solid fa-house"></i>Home
@@ -27,15 +31,26 @@
                     <li><i class="fa-solid fa-magnifying-glass"></i>Search</li>
                 </ul>
             </div>
+            <!-- Your library section -->
             <div class="library bg-grey rounded m-1 p-1">
+                <!-- heading -->
                 <div class="heading">
                     <img class="invert" src="/Lecture_84_Spotify_Clone/Spotify-Clone/assets/images/playlist.svg"
                         alt="playlist icon">
+                        <!-- Library -->
                     <h2>
                         Your Library
                     </h2>
                 </div>
+                <!-- Song list -->
+                <div class="songList">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <!-- Library footer section -->
                 <div class="footer">
+                    <!-- basic links -->
                     <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
                     <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
                     <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
@@ -46,17 +61,22 @@
                 </div>
             </div>
         </div>
+
+        <!-- Right section -->
         <div class="right bg-grey rounded">
             <div class="header">
+                <!-- Next and prev angle buttons -->
                 <div class="nav">
                     <i class="fa-solid fa-angle-left"></i>
                     <i class="fa-solid fa-angle-right"></i>
                 </div>
+                <!-- Log-in and Signup buttons -->
                 <div class="buttons">
-                    <button>Signup</button>
-                    <button>Login</button>
+                    <button class="signupbtn">Signup</button>
+                    <button class="loginbtn">Log in</button>
                 </div>
             </div>
+            <!-- Playlist section -->
             <div class="spotifyPlaylists">
                 <h1>Spotify Playlist</h1>
                 <div class="cardContainer">
@@ -72,15 +92,40 @@
                     <!-- card 2 -->
                     <div class="card">
                         <img src="/Lecture_84_Spotify_Clone/Spotify-Clone/assets/music/cs/cover.jpg" alt="happy hits" srcset="">
+                        <div class="play">
+                            <img src="/Lecture_84_Spotify_Clone/Spotify-Clone/assets/images/play.svg" alt="play" srcset="">
+                        </div>
                         <h2>Happy Hits</h2>
                         <p>Hits to boost mood and fill you with happiness</p>
+                    </div>
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="abovebar">
+                        <!-- song information -->
+                        <div class="songinfo">
+
+                        </div>
+                        <!-- song control buttons -->
+                        <div class="songsbuttons">
+                            <img id="previous" src="/Lecture_84_Spotify_Clone/Spotify-Clone/assets/images/prevsong.svg" alt="" srcset="">
+                            <img id="play" src="/Lecture_84_Spotify_Clone/Spotify-Clone/assets/images/play.svg" alt="" srcset="">
+                            <img id="next" src="/Lecture_84_Spotify_Clone/Spotify-Clone/assets/images/nextsong.svg" alt="" srcset="">
+                        </div>
+                        <!-- Song time line -->
+                        <div class="songtime">
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-<!-- 1:05:25 -->
 
     <script src="/Lecture_84_Spotify_Clone/Spotify-Clone/js/script.js"></script>
 </body>
